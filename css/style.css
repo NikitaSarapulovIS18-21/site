@@ -1,0 +1,147 @@
+body{ 
+    background: url('../img/phon.jpg') no-repeat fixed; /* фоновое изображение*/
+    margin: 0;
+} 
+/* шапка сайта */
+.header{ 
+    display: flex;
+    align-items: center;
+}
+/* ссылки в шапке */
+.header_links{
+    padding-left: 45%;
+}
+/* редактирование ссылок в шапке */
+.header_link{
+    margin-right: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    color: chartreuse;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+}
+/* лого сайта */
+.logo{
+    padding-left: 50px;
+    width: 100px;
+}
+.headwords{
+    font-size: 50px;
+    text-align: center;
+    color:chartreuse;
+    text-shadow: 2px 1px 1px black;
+}
+/* информация на главной секции */
+.main{
+    background-color: yellowgreen;
+    margin: 50px;
+    padding: 40px;
+    border-radius: 5vh;
+}
+/* галерея */
+.main_second{
+    background-color: yellowgreen;
+    margin: 50px;
+    padding: 40px;
+    border-radius: 5vh;
+}
+/* текст на главной секции */
+.main_text{
+    font-size: 25px;
+    text-align: center;
+}
+/* редактирование кнопки */
+.button1{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 40px;
+    background-color: green;
+    font-size: 20px;
+    border-radius: 10px 0 10px 0;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+/* настройка расположения кнопок */
+.buttons{
+    display: flex;
+    white-space: nowrap;
+    text-align: center;
+}
+/* редактирование фоток */
+.photo{
+    width: 500px;
+}
+.photos{
+    text-align: center;
+}
+/* подвал сайта */
+.footer{
+    display: flex;
+    padding: 10px;
+    background-color: green;
+}
+.footer_text{
+    margin-left: 800px;
+}
+.vvod{
+    display: flex;
+}
+.vvodd{
+    font-size: 20px;
+    font-weight: bold;
+}
+.text_vvodl{
+    margin-right: 15px;
+}
+.text_vvodr{
+    margin-right: 7px;
+}
+.button_enter{
+    width: 14vh;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: green;
+    font-size: 20px;
+    border-radius: 10px 0 10px 0;
+}
+.button_enter_reg{
+    width: 30vh;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: green;
+    font-size: 20px;
+    border-radius: 10px 0 10px 0;
+}
+.main_enter{
+    background-color: yellowgreen;
+    margin: 50px;
+    padding: 40px 150px;
+    border-radius: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+.vhod{
+    background-color: #00CC00;
+    padding: 20px;
+    border-radius: 25px;
+}
+.HHH{
+    font-size: 35px;
+}
+.PPP{
+    font-size: 25px;
+}
+.picture{
+    width: 250px;
+    margin-right: 100px;
+}
+.pictures{
+    width: 500px;
+    margin: 0 25px;
+}
+.hud_text{
+    align-items: center;
+    display: flex;
+}
